@@ -2,8 +2,8 @@
 #' 
 #' @description This function is used to launch the covid_asia shiny app
 #'   
-#' @param 
-#' @param 
+#' @param data input data
+#' @param input shiny UI generated dataframe
 #'    
 #' @import shiny
 #'   

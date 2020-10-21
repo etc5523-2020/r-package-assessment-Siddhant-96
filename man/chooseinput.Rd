@@ -6,6 +6,11 @@
 \usage{
 chooseinput(country, asia_filter)
 }
+\arguments{
+\item{country}{country para}
+
+\item{asia_filter}{filtered dataset}
+}
 \description{
 This function is used to launch the covid_asia shiny app
 }

@@ -2,8 +2,8 @@
 #' 
 #' @description This function is used to launch the covid_asia shiny app
 #'
-#' @param 
-#' @param 
+#' @param asia_filter filtered dataset
+#' @param country country para
 #'    
 #' @import shiny
 #'   

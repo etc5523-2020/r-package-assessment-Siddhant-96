@@ -6,6 +6,11 @@
 \usage{
 chosen_metric(data, input)
 }
+\arguments{
+\item{data}{input data}
+
+\item{input}{shiny UI generated dataframe}
+}
 \description{
 This function is used to launch the covid_asia shiny app
 }
