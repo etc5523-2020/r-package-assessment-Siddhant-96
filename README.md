@@ -35,7 +35,7 @@ launch_app()
 ```
 Below is a preview of the app.
 
-<img src="man/eg1.png" width="100%"/>
+<img src="man/eg1.PNG" width="70%"/>
 
 Below is a preview of the dataset.
 
