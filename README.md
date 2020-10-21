@@ -1,6 +1,7 @@
 
 # covidasia
 <!-- badges: start -->
+[![R build status](https://github.com/etc5523-2020/r-package-assessment-Siddhant-96/workflows/R-CMD-check/badge.svg)](https://github.com/etc5523-2020/r-package-assessment-Siddhant-96/actions)
 <!-- badges: end -->
 
 The goal of _covidasia_ package is to run an app **Covid-19 in SAARC countries** made using shiny to provide a detailed summary of COVID-19 implications on major Asian countires.

@@ -2,10 +2,10 @@
 % Please edit documentation in R/chosen_metric.R
 \name{chosen_metric}
 \alias{chosen_metric}
-\title{selected_metric}
+\title{chosen_metric}
 \usage{
 chosen_metric(data, input)
 }
 \description{
-lThis function is used to launch the covid_asia shiny app
+This function is used to launch the covid_asia shiny app
 }

@@ -2,10 +2,10 @@
 % Please edit documentation in R/chooseinput.R
 \name{chooseinput}
 \alias{chooseinput}
-\title{launch_app}
+\title{chooseinput}
 \usage{
 chooseinput(country, asia_filter)
 }
 \description{
-lThis function is used to launch the covid_asia shiny app
+This function is used to launch the covid_asia shiny app
 }

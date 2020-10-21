@@ -3,3 +3,4 @@
 export(chooseinput)
 export(chosen_metric)
 export(launch_app)
+import(shiny)

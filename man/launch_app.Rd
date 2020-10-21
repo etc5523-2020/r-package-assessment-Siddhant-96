@@ -7,5 +7,5 @@
 launch_app()
 }
 \description{
-lThis function is used to launch the covid_asia shiny app
+This function is used to launch the covid_asia shiny app into a separate window.
 }
