@@ -7,9 +7,9 @@
 chosen_metric(data, input)
 }
 \arguments{
-\item{data}{input data}
+\item{data}{input data is the filtered dataset including active cases}
 
-\item{input}{shiny UI generated dataframe}
+\item{input}{dataframe generated from shiny based on user control input}
 }
 \description{
 This function is used to launch the covid_asia shiny app

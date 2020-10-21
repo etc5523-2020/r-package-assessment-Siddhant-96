@@ -7,9 +7,9 @@
 chooseinput(country, asia_filter)
 }
 \arguments{
-\item{country}{country para}
+\item{country}{inputID parameter based on UI page}
 
-\item{asia_filter}{filtered dataset}
+\item{asia_filter}{filtered dataset inclding active cases}
 }
 \description{
 This function is used to launch the covid_asia shiny app

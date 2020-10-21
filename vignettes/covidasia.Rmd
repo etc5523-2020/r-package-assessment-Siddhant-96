@@ -1,0 +1,21 @@
+---
+title: "Summary of covid19 implications in Asian countries"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Summary of covid19 implications in Asian countries}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(covidasia)
+```
+
+This is a sample
