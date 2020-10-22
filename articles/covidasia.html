@@ -80,12 +80,51 @@
     
 <div class="sourceCode" id="cb1"><pre class="downlit">
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/etc5523-2020/r-package-assessment-Siddhant-96">covidasia</a></span><span class="op">)</span></pre></div>
-<p>This is a sample</p>
+<p>The goal of <em>covidasia</em> package is to run an app <strong>Covid-19 in SAARC countries</strong> made using shiny to provide a detailed summary of COVID-19 implications on major Asian countires.</p>
+<p>The app is made to assess and compare the spread of corona virus in major Asian countries. The countries included are India, Pakistan, China, Bangladesh, Nepal, Srilanka and Maldives. The app consists of three separate tabs which explain the cumulative, current and also provides a statistical summary of the situation of the virus in these countries.</p>
+<div id="attributes" class="section level2">
+<h2 class="hasAnchor">
+<a href="#attributes" class="anchor"></a>Attributes</h2>
+<p>The covidasia app is useful to understand the cumulative, current and also provides a statistical summary of the situation of the virus in major asian countries. It’s <strong>three</strong> main attributes are :</p>
+<ul>
+<li><p><strong>Cases over time</strong> - This tab provides the cumulative COVID19 summary for any of the countries.</p></li>
+<li><p><strong>Daily cases</strong> - This tab provides the daily COVID19 impact for all of the countries together for better differentiation.</p></li>
+<li><p><strong>Monthly statistics</strong> - This tab provides the monthly effects of COVID19 on major Asian countries.</p></li>
+</ul>
+</div>
+<div id="data" class="section level2">
+<h2 class="hasAnchor">
+<a href="#data" class="anchor"></a>Data</h2>
+<p>The data used for building the package is sourced from the COVID19 package from CRAN and can be accessed using:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"covid19"</span><span class="op">)</span>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">covid19</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb3"><pre class="downlit">
+<span class="va">new_data</span> <span class="op">&lt;-</span> <span class="fu">covid19</span><span class="op">(</span><span class="op">)</span></pre></div>
+</div>
+<div id="installation" class="section level2">
+<h2 class="hasAnchor">
+<a href="#installation" class="anchor"></a>Installation</h2>
+<p>The development version of covidasia can be installed from <a href="%22https://github.com%22">GITHUB</a> with:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit">
+<span class="co"># install.packages("devtools")</span>
+<span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"etc5523-2020/r-package-assessment-siddhant-96"</span><span class="op">)</span></pre></div>
+</div>
+<div id="usage" class="section level2">
+<h2 class="hasAnchor">
+<a href="#usage" class="anchor"></a>Usage</h2>
+<p>To run the app the following R code could be used.</p>
+<div class="sourceCode" id="cb5"><pre class="downlit">
+<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/etc5523-2020/r-package-assessment-Siddhant-96">covidasia</a></span><span class="op">)</span>
+<span class="co">## launch_app()</span></pre></div>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
 
-      </div>
+        <nav id="toc" data-toggle="toc"><h2 data-toc-skip>Contents</h2>
+    </nav>
+</div>
 
 </div>
 
