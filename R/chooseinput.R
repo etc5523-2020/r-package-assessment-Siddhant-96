@@ -1,6 +1,6 @@
 #' @title chooseinput
 #' 
-#' @description This function is used to launch the covid_asia shiny app
+#' @description This function replaces the functionality of the built-in selectinput function of shiny based on the parameters mentioned in the ui part of the app.
 #'
 #' @param asia_filter filtered dataset inclding active cases
 #' @param country inputID parameter based on UI page

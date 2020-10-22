@@ -18,4 +18,45 @@ knitr::opts_chunk$set(
 library(covidasia)
 ```
 
-This is a sample
+The goal of _covidasia_ package is to run an app **Covid-19 in SAARC countries** made using shiny to provide a detailed summary of COVID-19 implications on major Asian countires.
+
+The app is made to assess and compare the spread of corona virus in major Asian countries. The countries included are India, Pakistan, China, Bangladesh, Nepal, Srilanka and Maldives. The app consists of three separate tabs which explain the cumulative, current and also provides a statistical summary of the situation of the virus in these countries.
+
+## Attributes
+
+The covidasia app is useful to understand the cumulative, current and also provides a statistical summary of the situation of the virus in major asian countries. It's **three** main attributes are :
+
+- **Cases over time** - This tab provides the cumulative COVID19 summary for any of the countries.
+
+- **Daily cases** - This tab provides the daily COVID19 impact for all of the countries together for better differentiation. 
+- **Monthly statistics** - This tab provides the monthly effects of COVID19 on major Asian countries.
+
+## Data
+
+The data used for building the package is sourced from the COVID19 package from CRAN and can be accessed using:
+
+```r
+install.packages("covid19")
+library(covid19)
+```
+
+```r
+new_data <- covid19()
+```
+## Installation
+
+The development version of covidasia can be installed from [GITHUB]("https://github.com") with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("etc5523-2020/r-package-assessment-siddhant-96")
+```
+
+## Usage
+
+To run the app the following R code could be used.
+
+``` r
+library(covidasia)
+## launch_app()
+```

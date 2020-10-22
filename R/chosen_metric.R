@@ -1,6 +1,6 @@
 #' @title chosen_metric
 #' 
-#' @description This function is used to launch the covid_asia shiny app
+#' @description This function incorporates the reactive function from shiny and filters the dataset based on the inputid from the ui part.
 #'   
 #' @param data input data is the filtered dataset including active cases
 #' @param input dataframe generated from shiny based on user control input
