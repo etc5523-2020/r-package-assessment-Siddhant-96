@@ -1,0 +1,16 @@
+template:
+  params:
+    bootswatch: Cerulean
+    
+navbar:
+  title: "covidasia"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Articles"
+      href: articles/covidasia.html
+    - text: "Reference"
+      href: reference/index.html
+  right:
+    - icon: fa-github
+      href: https://github.com/etc5523-2020/r-package-assessment-Siddhant-96
