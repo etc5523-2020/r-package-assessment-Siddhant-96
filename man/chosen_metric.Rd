@@ -12,5 +12,5 @@ chosen_metric(data, input)
 \item{input}{dataframe generated from shiny based on user control input}
 }
 \description{
-This function is used to launch the covid_asia shiny app
+This function incorporates the reactive function from shiny and filters the dataset based on the inputid from the ui part.
 }

@@ -12,5 +12,5 @@ chooseinput(country, asia_filter)
 \item{asia_filter}{filtered dataset inclding active cases}
 }
 \description{
-This function is used to launch the covid_asia shiny app
+This function replaces the functionality of the built-in selectinput function of shiny based on the parameters mentioned in the ui part of the app.
 }
